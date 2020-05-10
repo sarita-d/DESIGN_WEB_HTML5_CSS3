@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/img/fondo.jpg);
+    opacity: 0.8;
+}
+.nav1{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(1, 7, 1);
+    margin: 0 auto;
+}
+nav p{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+}
+.icon{
+    padding: 5px 150px 105px 15px;  
+    color: rgb(103, 117, 110);
+    font-size: 15px;
+    float: right;
+}
+
+.contacto{
+    padding: 5px 15px 5px 15px; 
+    color: rgb(103, 117, 110);
+    font-size: 11px;
+    left: 10em;
+    font-family: 'Courgette', cursive;
+} 
+.redes{
+    padding: 2px 7px 2px 7px; 
+    color: rgb(103, 117, 110);
+    font-size: 12px;
+    
+}
+ .banner_cont{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    background: url(/img/banner.jpg) no-repeat top left;
+ }
+ .content_nav{
+     width: 100%;
+     height: 50px;
+     margin: 0 auto;
+     
+ }
+ .logo_nav{
+     position: absolute;
+     top: 2em;
+     left: 10em;
+     bottom: 0em;
+     right: 0em;
+     width: 200px;
+     height: 50px;
+     background: url(/img/logo_sarita.png) no-repeat top left;
+ }
+ .banner_text{
+     position: absolute;
+     margin-top: 12em;
+     margin-left: 40%;
+     text-align: center;
+     color: rgb(225, 225, 238);
+ }
+ .strong_xl{
+     font-size: 100px;
+     color: rgb(225, 225, 238);
+ }
+ .strong_cont_color{
+     color: blue;
+
+ }
+ .strong_footer_color{
+     color: aliceblue;
+     font-size: x-large;
+ }
+ .menu_nav{
+     position: absolute;
+     top: 2em;
+     right: 1em;
+     bottom: 0em;
+     width: 700px;
+     height: 10px;
+ }
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin: 0em;
+    padding: 1em;
+    color: #050505;
+    float: left;
+  }
+  #item1{
+      padding: 20px;
+      margin: 20px;
+      text-align: justify;
+  }
+  #item2{
+      padding: 20px;
+      margin: 20px;
+      text-align: justify;
+  }
+.footer_cont{
+    display: inline-block;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(1, 4, 27);
+    margin: 0 auto;
+    text-align: center;
+}
+.estadistica{
+    display: inline-block;
+    padding: 15px 15px 5px 15px; 
+    color: rgb(103, 117, 110);
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+} 
+.color_ico{
+    color: blue;
+    font-size: 30px;
+}
+.footer_inf{
+    padding:20px 15px 5px 15px;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: url(/img/img_footer.jpg) no-repeat top left;
+    
+}
